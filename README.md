@@ -26,10 +26,11 @@ Very strict:
 find . -type f | grep -i '[^a-z0-9\.\/_ ,()\-]'
 
 Quite strict:
-find . -name '*[~#%&*(){}\[\]/\\:<>?+|"]*'
+find . -name '*[~#%&*()\[\]{}/\\:<>?+|"]*'
 
-Less strict:
+Relatively strict:
 find . -name '*[~#%*{}/\\:<>?|"]*'
+missing &()[]+ compared to above
 
 Microsoft naming conventions:
 find . -name '*[<>:"/\\|?*~#$]*'
