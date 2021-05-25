@@ -3,7 +3,9 @@
 ```
 $ find . -type f | grep -i '[^a-z0-9\.\/_ ,()\-]'
 
-You cannot use the following characters anywhere in a site name, in a subsite name, or in a site or Active Directory group name:
+You cannot use the following characters anywhere in a site name,
+in a subsite name, or in a site or Active Directory group name:
+
 Tilde (~)
 Number sign (#)
 Percent (%)
@@ -18,6 +20,8 @@ Slash (/)
 Plus sign (+)
 Pipe (|)
 Quotation mark (“)
+
+find . -name '*[~#%&*(){}\[\]/\\:<>?+|"]*'
 
 ```
 
