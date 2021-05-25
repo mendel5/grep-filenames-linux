@@ -1,7 +1,6 @@
 # grep-filenames-linux
 
 ```
-
 You cannot use the following characters anywhere in a site name,
 in a subsite name, or in a site or Active Directory group name:
 
@@ -34,6 +33,11 @@ missing &()[]+ compared to above
 
 Microsoft naming conventions:
 find . -name '*[<>:"/\\|?*~#$]*'
+
+
+To check:
+!"§$%&/()[]{}=?\+*~#'|<>
+
 ```
 
 
