@@ -45,3 +45,4 @@ Links:
 - https://moredvikas.wordpress.com/2016/05/05/sharepoint-file-names-cant-contain-the-following-characters/
 - https://gist.github.com/doctaphred/d01d05291546186941e1b7ddc02034d3
 - https://docs.microsoft.com/en-us/windows/win32/fileio/naming-a-file
+- https://unix.stackexchange.com/questions/319568/find-files-by-character-encoding
