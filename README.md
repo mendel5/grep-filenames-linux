@@ -25,10 +25,10 @@ Quotation mark (“)
 Very strict:
 find . -type f | grep -i '[^a-z0-9\.\/_ ,()\-]'
 
-Less strict:
+Quite strict:
 find . -name '*[~#%&*(){}\[\]/\\:<>?+|"]*'
 
-Even less strict:
+Less strict:
 find . -name '*[~#%*{}/\\:<>?|"]*'
 
 Microsoft naming conventions:
