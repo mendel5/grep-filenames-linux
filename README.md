@@ -23,6 +23,7 @@ Quotation mark (“)
 
 find . -name '*[~#%&*(){}\[\]/\\:<>?+|"]*'
 
+find . -name '*[~#%*{}/\\:<>?+|"]*'
 ```
 
 
@@ -33,3 +34,4 @@ Links:
 - https://stackoverflow.com/questions/623764/find-non-utf8-filenames-on-linux-file-system
 - https://serverfault.com/questions/805621/how-can-i-find-all-files-in-a-directory-with-illegal-characters-in-the-file-name
 - https://moredvikas.wordpress.com/2016/05/05/sharepoint-file-names-cant-contain-the-following-characters/
+- https://gist.github.com/doctaphred/d01d05291546186941e1b7ddc02034d3
