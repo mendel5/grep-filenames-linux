@@ -27,6 +27,10 @@ find . -type f | grep -i '[^a-z0-9\.\/_ ,()\-]'
 Very strict (Blacklist):
 find . -name '*[~#%&*()\[\]{}/\\:<>?+|"!§$=]*'
 
+Very strict (Blacklist):
+find . -name '*[~#%&*\[\]{}/\\:<>?|"!§$=]*'
+missing ()+ compared to above
+
 Quite strict:
 find . -name '*[~#%&*()\[\]{}/\\:<>?+|"]*'
 
