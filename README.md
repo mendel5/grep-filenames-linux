@@ -21,8 +21,11 @@ Quotation mark (“)
 
 ---
 
-Very strict:
+Very strict (Whitelist):
 find . -type f | grep -i '[^a-z0-9\.\/_ ,()\-]'
+
+Very strict (Blacklist):
+find . -name '*[~#%&*()\[\]{}/\\:<>?+|"!§$=]*'
 
 Quite strict:
 find . -name '*[~#%&*()\[\]{}/\\:<>?+|"]*'
